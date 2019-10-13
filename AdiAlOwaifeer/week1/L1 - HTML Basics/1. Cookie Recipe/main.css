@@ -1,0 +1,26 @@
+a {
+    color: #900;
+}
+
+body {
+    background-color: #FFE;
+    border: 2px;
+    border-color: black;
+    border-style: solid;
+    padding: 10px;
+}
+
+img {
+    border: 2px;
+    border-color: black;
+    border-style: solid;
+    padding: 1px;
+}
+
+#n {
+    color: #887;
+}
+
+p {
+   color: black; 
+}

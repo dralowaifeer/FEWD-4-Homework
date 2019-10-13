@@ -1,0 +1,45 @@
+body {
+    align-content: center;
+}
+
+caption {
+    font-size: 200%;
+}
+
+table {
+    margin-top: 2.5%;
+    font-family: Arial;
+    width: 75%;
+    margin-left: 15%;
+    margin-right: 15%;
+    border-bottom: 1.5px;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    border-color: grey;
+    border-style: solid;
+}
+
+th {
+    padding: 1%;
+    text-align: center;
+    font-weight: bold;
+    background-color: aliceblue;
+    border-top: 1.5px;
+    border-bottom: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    border-color: grey;
+    border-style: solid;
+}
+
+td {
+    padding: 1%;
+    text-align: center;
+    border-top: 1.5px;
+    border-bottom: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    border-color: grey;
+    border-style: solid;
+}

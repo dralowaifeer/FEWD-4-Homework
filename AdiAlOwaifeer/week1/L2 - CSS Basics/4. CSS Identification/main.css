@@ -1,0 +1,71 @@
+/* Identify the selectors in each style and what HTML element(s) they target. Also, which of these examples have errors? What are they? */
+
+
+
+/* ###1 */
+
+p {
+  color: white;
+}
+
+/* Paragraph */
+
+/* ###2 */
+
+span {
+  padding: 15px;
+}
+
+/* Span for inline elements */
+
+/* ###3 */
+
+table td {
+  color: #222;
+}
+
+/* cell in a table. Error: selector should be (td) only without (table) */
+
+/* ###4 */
+
+.lede-section #left-side {
+  position: absolute;
+}
+
+/* class called (lede-section) and id called (left-side) */
+
+/* ###5 */
+
+#section-9 {
+  display: block
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+/* id called (section-9). Error: missing semicolon after the first value */
+
+/* ##What's different about the following three selectors? */
+
+/* ###6 */
+
+.fewd25-page-section .another-class {
+  text-align: center;
+}
+
+/* selector for elements that have a class name (.another-class) that are decendents of the class (.fewd25-page-section) */
+
+/* ###7 */
+
+.fewd25-page-section, .another-class {
+  text-align: center;
+}
+
+/* selector for two different classes one is called (.fewd25-page-section) and the other is called (.another-class) */
+
+/* ###8 */
+
+.fewd25-page-section.another-class {
+  text-align: center;
+}
+
+/* selector for elements that have a class name (.fewd25-page-section) and also (.another-class) */
